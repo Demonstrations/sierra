@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Demonstrations/sierra/issues"
   },
-  "homepage": "https://github.com/Demonstrations/sierra#readme"
+  "homepage": "https://github.com/Demonstrations/sierra#readme",
+  "dependencies": {
+    "koa.io": "0.0.3"
+  }
 }
