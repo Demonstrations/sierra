@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "build": "browserify ./src/index.js > ./dist/server.js --node",
-    "pack": "webpack --config webpack.config.js"
+    "build": "pkg ./src/index.js --target node8-win-x64 --output ./dist/server.exe"
   },
   "repository": {
     "type": "git",
@@ -23,13 +22,6 @@
     "socket.io": "^2.0.3"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "browserify": "^14.4.0",
-    "bufferutil": "^3.0.2",
-    "utf-8-validate": "^3.0.3",
-    "webpack": "^3.5.5",
-    "webpack-node-externals": "^1.6.0"
+    "pkg": "^4.2.4"
   }
 }
