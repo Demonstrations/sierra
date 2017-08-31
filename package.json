@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "build": "pkg ./src/index.js --target node8-win-x64 --output ./dist/server.exe"
+    "build": "pkg ."
+  },
+  "bin":"./src/index.js",
+  "pkg":{
+    "scripts": "./src/index.js",
+    "output": "./dist/server",
+    "targets": [ "node8" ]
   },
   "repository": {
     "type": "git",
