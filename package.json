@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "build": "pkg . --output ./dist/server"
+    "build": "pkg . --out-path ./dist/"
   },
   "bin":"./src/index.js",
   "pkg":{
