@@ -6,13 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "build": "pkg ."
-  },
-  "bin":"./src/index.js",
-  "pkg":{
-    "scripts": "./src/index.js",
-    "output": "./dist/server",
-    "targets": [ "node8" ]
+    "build": "nexe -i ./src/index.js -o ./dist/server"
   },
   "repository": {
     "type": "git",
@@ -28,6 +22,6 @@
     "socket.io": "^2.0.3"
   },
   "devDependencies": {
-    "pkg": "^4.2.4"
+    "nexe": "^2.0.0-beta.7"
   }
 }

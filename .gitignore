@@ -1,5 +1,6 @@
 .idea
 .vscode/*
+.nexe/*
 .DS_Store
 node_modules
 *.log
