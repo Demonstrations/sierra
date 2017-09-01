@@ -11,7 +11,7 @@
   "bin":"./src/index.js",
   "pkg":{
     "scripts":"./src/**/*.js",
-    "targets":["node7-linux-armv6", "node7-macos-x64", "node7-win-x64"]
+    "targets":["node7-linux-x64", "node7-macos-x64", "node7-win-x64"]
   },
   "repository": {
     "type": "git",
